@@ -1,19 +1,30 @@
 <template>
   <div id="app">
     <Header />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <Store />
+        </div>
+        <div class="col-4">
+          <Cart />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import Header from "./components/Header.vue";
+import Header from './components/Header.vue';
+import Store from './components/mcBonalds/Store.vue';
+import Cart from './components/mcBonalds/Cart.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld,
-    Header
+    Header,
+    Store,
+    Cart
   }
 };
 </script>

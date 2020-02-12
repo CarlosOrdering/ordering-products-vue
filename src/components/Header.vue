@@ -1,7 +1,10 @@
 <template>
   <div class="Header">
     <div class="Header__image">
-      <img alt="logo" src="https://orderingweb.ordering.co/templates/web/img/logo.png" />
+      <img
+        alt="logo"
+        src="https://orderingweb.ordering.co/templates/web/img/logo.png"
+      />
     </div>
     <div class="Header__right_menu">
       <a href="#">Home</a>
@@ -16,7 +19,7 @@
   height: 40px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
